@@ -10,9 +10,9 @@
  * 중요: baud rate 9600 (Python 데이터수집 스크립트와 반드시 일치해야 함)
  *
  * 회로:
- *   파워서플라이(+) 12V -> 퓨즈(1차, 8~10A) -> MOSFET Vin(+)
+ *   파워서플라이(+) 12V -> 퓨즈(1차, 20A) -> MOSFET Vin(+)
  *   ESP32 GPIO(PWM) -> MOSFET 게이트
- *   MOSFET Vout(+) -> 퓨즈(2차, 8~10A) -> 펠티어(+)
+ *   MOSFET Vout(+) -> 퓨즈(2차, 20A) -> 펠티어(+)
  *   MOSFET Vout(-) -> 펠티어(-) 직결
  *   파워서플라이(-), MOSFET GND, ESP32 GND -> 공통 GND 라인
  */
